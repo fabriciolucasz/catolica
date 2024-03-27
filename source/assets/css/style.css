@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a, ul, li, p, ul {
+    text-decoration: none;
+    color: #000;
+
+    font-family: Inter;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    
+    list-style-type: none;
+}
+
+#material_icon {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.header a, ul, li, li a, p {
+    text-decoration: none;
+    color: #fff;
+
+    font-family: Inter;
+}
+
+.main_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vh;
+
+    background: #202057;
+}
+
+#actual_page {
+    color: #fff
+}
+
+.nav_header ul li a {
+    color: #ffffff90;
+}
+.nav_header ul li a:hover {
+    color: #fff;
+}
+
+.nav_header {
+    display: flex;
+    flex-direction: row;
+    gap: 4vh;
+}
+
+.header_user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1vh;
+}
+
+.user_text {
+    display: flex;
+    flex-direction: column;
+}
+
+main p {
+    color: #000
+}
