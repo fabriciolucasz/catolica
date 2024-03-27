@@ -27,6 +27,8 @@ ul, li {
     line-height: 32px;
 }
 
+/* Header */
+
 .header a, ul, li, li a, p {
     text-decoration: none;
     color: #fff;
@@ -43,6 +45,8 @@ ul, li {
 
     background: #202057;
 }
+
+/* Header navbar */
 
 #actual_page {
     color: #fff
@@ -61,6 +65,8 @@ ul, li {
     gap: 4vh;
 }
 
+/* Header user */
+
 .header_user {
     display: flex;
     flex-direction: row;
@@ -75,6 +81,32 @@ ul, li {
     flex-direction: column;
 }
 
+/* Main */
+
 main p {
     color: #000
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5vh
+}
+
+.main_branch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5vh
+}
+
+.second_branch {
+    justify-content: center;
+    width: 50vh;
+}
+
+#branch {
+    font-weight: 600;
+    color: linear-gradient(90deg, #01348D 0%, #0187CE 100%);
 }
