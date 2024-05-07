@@ -3,44 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <title>Unknown | Homepage</title>
-    <link rel="stylesheet" href="assets/style.css">
-    <script src="assets/home.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="source/assets/css/style.css">
+    <script src="source/assets/js/home.js"></script>
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header class="main_header">
         <nav class="nav_header">
-            <ul>
-                <li>
-                    <a href="/" id="actual_page">Inicio</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="/">Atendimento</a>
-                </li>
-            </ul>
+            <a href="/">
+                <img src="source/assets/images/logo.svg" alt="Catolica logo">
+            </a>
         </nav>
         <a href="/user">
             <div class="header_user">
                 <div class="user_text">
-                    <p id="welcome_text">Bem vindo,<br>${visitant}</p>
+                    <span id="welcome">Bem vindo</span>
+                    <span id="visit">Visitante</span>
                 </div>
-                <p id="material_icon">account_circle</p>
+                <i class="fa-solid fa-circle-user"></i>
             </div>
         </a>
     </header>
+
     <main>
-        <div class="main_content">
+        <section class="main_content container">
             <div class="main_branch">
-                <p>Vem fazer parte do nosso</p>
-                <p id="branch">Universo</p>
+                <div class="main_title">
+                    <p>Vem fazer parte da</p>
+                    <p id="branch">Católica</p>
+                </div>
+                <div class="main_description">
+                    <p>Na Católica, a qualidade é garantida. <i>Junte-se a nós e vamos construir o futuro juntos!</i></p>
+                </div>
             </div>
+
+            <hr/>
+
             <div class="second_branch">
-                <p>Lorem ipsum dolor sit amet consectetur. Aliquet ut convallis sit tellus condimentum tristique consectetur amet. At lectus placerat orci ante.</p>
+                <div class="main_title" id="branch">Universidade do Futuro</div>
+                <div class="main_description">
+                    <p>Estamos na vanguarda da inovação educacional. Com tecnologia de ponta e uma equipe de profissionais experientes, capacitamos você para moldar <b>seu próprio futuro</b>!</p>
+                </div>
+            </div>
+
+            <hr/>
+
+            <span>Venha conhecer nossas instituições especializadas!</span>
+
+            
+            <hr/>
+
+            <div class="main-pages">
+                <a href="/">
+                    <div class="pages">
+                        <p>CATÓLICA</p>
+                        <span>UNIVERSIDADE CATÓLICA DE BRASÍLIA</span>
+                    </div>
+                </a>
+                <div class="pages-hide">
+                    <p>FICR</p>
+                </div>
+                <div class="pages-hide">
+                    <p>UNICATÓLICA</p>
+                </div>
+                <div class="pages-hide">
+                    <p>UNILESTE</p>
+                </div>
+                <div class="pages-hide">
+                    <p>Católica EAD</p>
+                </div>
+            </div>
+
+            <hr/>
+
+            <div class="service">
+                <div class="main-title">
+                    <i class="fa-solid fa-ticket"></i>
+                    <h3>Atendimento Virtual</h3>
+                </div>
+                <p>Contamos com profissionais capacitados para fazer a diferença nas mais diversas áreas</p>
+                <div class="contact">
+                    <button class="button-contact">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <p>Contatar atendente</p>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <hr/>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column footer-users">
+                <h3>Acesso rápido</h3>
+                <ul>
+                    <li><a href="#">Estudante</a></li>
+                    <li><a href="#">Graduação</a></li>
+                    <li><a href="#">Infraestrutura</a></li>
+                </ul>
+            </div>
+            <div class="footer-column footer-media">
+                <h3>Social medias</h3>
+                <span>Fique de olho em nossas redes sociais</span>
+                <div class="link-medias">
+                    <a href="https://facebook.com">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://linkedin.com">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
             </div>
         </div>
-    </main>
+        <div class="footer-divider"></div>
+        <div class="footer-copyright">
+            <p>&copy; Todos os direitos reservados.</p>
+            <div class="terms-policy">
+                <a href="">Termos de Serviço</a>
+                <a href="">Politicas de Uso</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
